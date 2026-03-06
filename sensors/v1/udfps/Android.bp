@@ -4,7 +4,7 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-/* cc_library_shared {
+cc_library_shared {
     name: "sensors.udfps",
     defaults: ["hidl_defaults"],
     srcs: [
@@ -19,4 +19,4 @@
         "libhardware_headers",
     ],
     vendor: true,
-}*/
+}

@@ -4,11 +4,11 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-/* cc_library_shared {
-    name: "sensors.udfps",
+cc_library_shared {
+    name: "sensors.double_tap",
     defaults: ["hidl_defaults"],
     srcs: [
-        "udfps_hal.cpp",
+        "double_tap_hal.cpp",
     ],
     shared_libs: [
         "libcutils",
@@ -19,4 +19,4 @@
         "libhardware_headers",
     ],
     vendor: true,
-}*/
+}
